@@ -74,27 +74,27 @@ nav.navbar-custom .navbar-toggler:hover{
     color:#000;
 }
 /* responsividade */
-@media (min-width:200px) and (max-width: 400.98px) { 
+@media (min-width:200px) { 
     .capa-texto h1{
         font-size:2em;
     }
 }
 /* Small devices (landscape phones, less than 768px) */
-@media (min-width:500px) and (max-width: 767.98px) { 
+@media (min-width:500.98px) { 
     .capa-texto h1{
         font-size:3em;
     }
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (min-width:770.98px) and (max-width: 991.98px) { 
+@media (min-width:770.98px) { 
     .capa-texto h1{
         font-size:4em;
     }
  }
 
 /* Large devices*/
-@media (max-width: 1199.98px) { 
+@media (min-width: 1199.98px) { 
     .capa-texto h1{
         font-size:5em;
     }
