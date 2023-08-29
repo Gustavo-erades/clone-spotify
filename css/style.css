@@ -1,0 +1,106 @@
+html, body, #capa{
+    height: 100%;
+}
+body{
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff007b,#7300ff);
+    background-attachment: fixed;
+    background: 
+        url(../imagens/capa.png),
+        url(../imagens/ruido.png),
+        -webkit-linear-gradient(50deg, #ff007b,#7300ff),
+        -o-linear-gradient(50deg, #ff007b,#7300ff),
+        -moz-linear-gradient(50deg, #ff007b,#7300ff);
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* navbar home */
+nav.navbar-custom{
+    background-color:rgba(0,0,0,0.6);
+    padding: 20px 10px;
+}
+nav.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+nav.navbar-custom .navbar-nav .nav-link:hover {
+    color: #00ffd0;
+}
+nav.navbar-custom .navbar-toggler {
+    color: #fff;
+    border-color: none;
+}
+nav.navbar-custom .navbar-toggler:focus {
+    outline: none;
+}
+nav.navbar-custom .navbar-toggler:hover{
+    color:#00ffd0;
+}
+.divisor-navbar{
+    width: 1px;
+    background-color: #fff;
+    margin: 10px 15px;
+}
+/* capa */
+.capa-texto{
+    text-align: center;
+}
+.capa-texto h1{
+    font-weight: bolder;
+    font-size:6em;
+    color:#fff;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+.capa-texto a.btn{
+    border-radius: 500px;
+    text-transform: uppercase;
+    color:#fff;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border:1px solid #fff;
+    font-weight: bold;
+}
+.capa-texto a.btn#botao1{
+    background-color: #7300ff;
+}
+.capa-texto a.btn#botao1:hover{
+    background-color: #9d00ff;
+}
+.capa-texto a.btn#botao2{
+    background-color: rgba(0,0,0,0);
+}
+.capa-texto a.btn#botao2:hover{
+    background-color: #fff;
+    color:#000;
+}
+/* responsividade */
+@media (min-width:200px) and (max-width: 400.98px) { 
+    .capa-texto h1{
+        font-size:2em;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width:500px) and (max-width: 767.98px) { 
+    .capa-texto h1{
+        font-size:3em;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width:770.98px) and (max-width: 991.98px) { 
+    .capa-texto h1{
+        font-size:4em;
+    }
+ }
+
+/* Large devices*/
+@media (max-width: 1199.98px) { 
+    .capa-texto h1{
+        font-size:5em;
+    }
+}
+@media (min-width: 1200px) { 
+    .capa-texto h1{
+        font-size:6em;
+    }
+}
