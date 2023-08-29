@@ -1,5 +1,6 @@
 html, body, #capa{
     height: 100%;
+    overflow-x: hidden;
 }
 body{
     background: url(../imagens/capa.png),
@@ -21,9 +22,16 @@ nav.navbar-custom{
 }
 nav.navbar-custom .navbar-nav .nav-link {
     color: #fff;
+    font-weight: bold;
+}
+nav.navbar-custom .navbar-nav a#cor-diferente {
+    color: #cecece;
 }
 nav.navbar-custom .navbar-nav .nav-link:hover {
-    color: #00ffd0;
+    color: #00ff55;
+}
+nav.navbar-custom .navbar-nav a#cor-diferente:hover {
+    color: #00ff55;
 }
 nav.navbar-custom .navbar-toggler {
     color: #fff;
@@ -50,6 +58,7 @@ nav.navbar-custom .navbar-toggler:hover{
     color:#fff;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
+    text-shadow: 2px 2px 5px #323232c4;
 }
 .capa-texto a.btn{
     border-radius: 500px;
@@ -72,6 +81,145 @@ nav.navbar-custom .navbar-toggler:hover{
 .capa-texto a.btn#botao2:hover{
     background-color: #fff;
     color:#000;
+}
+/* conteúdos */
+section#conteudo1, #conteudo3, #conteudo5{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+section#conteudo1 div#albuns{
+    padding: 10px 10px;
+}
+section#conteudo1 div#conteudo1-texto h3, div#conteudo1-texto h2{
+    color: #9d00ff;
+}
+section#conteudo1 div#conteudo1-texto h2{
+    font-weight: 900;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+section#conteudo1 div#conteudo1-texto h3{
+    font-weight: 700;
+    font-size: 2em;
+}
+section#conteudo2{
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+section#conteudo2 div#telefones{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+section#conteudo2 div#conteudo2-texto h2{
+    font-weight: 900;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:#fff;
+    letter-spacing: -0.05em;
+    text-shadow: 2px 2px 5px #323232c4;
+}
+section#conteudo2 div#conteudo2-texto h3{
+    font-weight: 700;
+    font-size: 2em;
+    color:#00ff55;
+    letter-spacing: -0.05em;
+    text-shadow: 2px 2px 5px #00230c6d;
+}
+section#conteudo2 div#conteudo2-texto p{
+    color: #fff;
+    font-size: 1.2em;
+}
+section#conteudo3{
+    padding-top: 20px;
+}
+section#conteudo3 div#conteudo3-titulo h1{
+    margin-top: 30px;
+    padding: 25px 0px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+section#conteudo3{
+    text-align: center;
+}
+section#conteudo3 div#conteudo3-cards i{
+    /* define o degradê */
+    background-image: linear-gradient(to bottom, #ff007b,#7300ff);
+    background-image: -webkit-linear-gradient(to top, #ff007b,#7300ff),
+                      -o-linear-gradient(to top, #ff007b,#7300ff),
+                      -moz-linear-gradient(to top, #ff007b,#7300ff);
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -moz-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color:#9d00ff;
+    font-size: 3em;
+    padding: 20px 0px;
+}
+section#conteudo3 div#conteudo3-cards h4{
+    padding: 5px 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+section#conteudo3 div#conteudo3-cards p{
+    font-size: 1em;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+section#conteudo4, #conteudo6{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+section#conteudo4 h2{
+    font-weight: bold;
+    font-size: 3em;
+    color:#fff;
+    text-shadow: 2px 2px 4px #00000093;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section#conteudo6 h1{
+    font-weight: bold;
+    font-size: 4em;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section#conteudo6 a.btn{
+    border-radius: 500px;
+    text-transform: uppercase;
+    color:#000;
+    background-color: #fff;
+    margin: 5px 10px;
+    padding: 10px 30px;
+    border:none;
+    font-size: 1em;
+}
+section#conteudo6  a.btn:hover{
+    border:none;
+    padding: 13px 33px;
+    color:#fff;
+    background-color: #000;
+}
+div#conteudo5-telefone{
+    transform: rotate(-30deg);
+}
+section#conteudo5 h3#conteudo5-texto{
+    font-weight: 900;
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+section#conteudo5 span#conteudo5-span{
+    font-size: 2em;
 }
 /* responsividade */
 @media (min-width:200px) { 
