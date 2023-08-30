@@ -41,7 +41,7 @@ nav.navbar-custom .navbar-toggler:focus {
     outline: none;
 }
 nav.navbar-custom .navbar-toggler:hover{
-    color:#00ffd0;
+    color:#00ff55;
 }
 .divisor-navbar{
     width: 1px;
@@ -71,6 +71,12 @@ nav.navbar-custom .navbar-toggler:hover{
 }
 .capa-texto a.btn#botao1{
     background-color: #7300ff;
+}
+.capa-texto a.btn#botao1-carousel{
+    background-color:#2ba353;
+}
+.capa-texto a.btn#botao1-carousel:hover{
+    background-color:#1ec054;
 }
 .capa-texto a.btn#botao1:hover{
     background-color: #9d00ff;
@@ -221,6 +227,54 @@ section#conteudo5 h3#conteudo5-texto{
 section#conteudo5 span#conteudo5-span{
     font-size: 2em;
 }
+/* footer */
+footer{
+    background-color: #000;
+    position: relative;
+    padding: 40px 0 40px 0;
+}
+footer li{
+    color:#fff;
+    font-size: 0.9em;
+}
+footer ul{
+    list-style: none;
+}
+footer ul#redes-sociais{
+    float: right;
+}
+footer ul#redes-sociais li{
+    display: inline;
+    font-size: 2em;
+    padding-left: 5px;
+}
+ul#rodape-footer{
+    float: left;
+    font-size: 0.8em;
+    padding-top: 50px;
+}
+footer ul#rodape-footer li{
+    display: inline;
+    color:#919496;
+    padding-right: 6px;
+}
+ul#rodape-footer2{
+    float: right;
+    padding-top: 40px;
+}
+ul#rodape-footer2 li{
+    color:#919496;
+    padding-bottom: 6px;
+    font-size: 0.8em;
+}
+footer h4{
+    color:#919496;
+    font-size: 1em;
+}
+footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:hover, ul#rodape-footer2 li:hover{
+    color:#00ff55;
+    cursor: pointer;
+}
 /* responsividade */
 @media (min-width:200px) { 
     .capa-texto h1{
@@ -233,7 +287,6 @@ section#conteudo5 span#conteudo5-span{
         font-size:3em;
     }
 }
-
 /* Medium devices (tablets, less than 992px) */
 @media (min-width:770.98px) { 
     .capa-texto h1{
