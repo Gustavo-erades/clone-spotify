@@ -1,6 +1,7 @@
 html, body, #capa{
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     background: url(../imagens/capa.png),
