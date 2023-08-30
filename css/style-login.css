@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    background:
+                linear-gradient(to bottom, #181818,#0d0c0c,#000);
+    background:
+        -webkit-linear-gradient(to bottom, #181818,#0d0c0c,#000),
+        -o-linear-gradient(to bottom, #181818,#0d0c0c,#000),
+        -moz-linear-gradient(to bottom, #181818,#0d0c0c,#000);
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* navbar home */
+nav.navbar-custom{
+    background-color:rgb(0,0,0);
+    padding: 20px 10px;
+}
