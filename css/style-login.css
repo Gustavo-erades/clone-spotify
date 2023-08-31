@@ -1,15 +1,18 @@
-/* cor verder: #1ED760 */
 @font-face {
     font-family: "fonte spotify";
     src: url("../fontes/Circular/CircularStd-Bold.otf");
 }
+@font-face {
+    font-family: "fonte spotify fino";
+    src: url("../fontes/Circular/CircularStd-Light.otf");
+}
 body{
-    background: linear-gradient(to bottom, #1A1A1A,#111111,#0A0A0A,#000);
+    background: linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000);
     background-attachment: fixed;
     background:
-        -webkit-linear-gradient(to bottom, #1A1A1A,#111111,#0A0A0A,#000),
-        -o-linear-gradient(to bottom, #1A1A1A,#111111,#0A0A0A,#000),
-        -moz-linear-gradient(to bottom, #1A1A1A,#111111,#0A0A0A,#000);
+        -webkit-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000),
+        -o-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000),
+        -moz-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
@@ -69,7 +72,8 @@ div.btn-ultimo{
     font-weight: bold;
     width: 55%;
     color: #E2E2E2;
-    padding: 10px 0;
+    padding: 15px 0;
+    margin-bottom: 30px;
 }
 div.btn-ultimo:hover{
     border:0.5px solid #fff;
@@ -95,7 +99,78 @@ i#google{
     font-size: 1.3em;
     padding: 10px 0px;
 }
-/* formulários */
-div#div-formularios{
+/* formulário */
+div#div-formulario{
+    margin-top:40px;
+}
+.form-group{
+    width: 80%;
+}
+div#div-formulario label{
+    float:left;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "fonte spotify";
+}
+input.form-control{
+    padding: 10px 0;
+    background-color: #121212;
+    color:#fff;
+}
+input.form-control:focus{
+    outline: 3px solid #fff;
+    box-shadow:  none;
+    border:none;
+    background-color: #121212;
+    color: #fff;
+}
+#lembrar-de-mim{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "fonte spotify fino";
+    width: 60%;
+}
+div#div-botao{
     margin-top: 30px;
+}
+div#div-botao button{
+    width: 50%;
+    border-radius: 500px;
+    padding: 10px 30px;
+    background-color:#1ED760 ;
+    outline: none;
+    font-family: "fonte spotify fino";
+    cursor: pointer;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+div#div-botao button:hover{
+    font-weight: 900;
+    width: 53%;
+    height: 3.2em;
+    background-color:#30db6c ;
+}
+a#esqueceu-senha{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: "fonte spotify";
+}
+a#esqueceu-senha:hover{
+    text-decoration: underline;
+    text-decoration-color: #1ED760;
+}
+span#span-cadastro{
+    color:#939798;
+}
+div#div-cadastro{
+    margin-top: 40px;
+}
+span#span-cadastro a#link-cadastro{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+span#span-cadastro a#link-cadastro:hover{
+    color: #30db6c;
 }

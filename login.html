@@ -79,24 +79,52 @@
                                 <div class="barra-divisor"><span class="d-none">barra de divisão</span></div>
                             </div>
                         </span>
+                        
                         <!-- formulário -->
-                        <form>
-                            <div id="div-formularios">
-                                <div class="form-group">
-                                    <label for="email">E-mail ou nome de usuário</label>
-                                    <input type="email" placeholder="E-mail ou nome de usuário" id="email" class="form-control">
+                       
+                        <div id="div-formulario">
+                            <div class="row">
+                                <div class="form-group col-8 offset-2">
+                                    <div>
+                                        <label for="email">E-mail ou nome de usuário</label>
+                                    </div>
+                                    <input type="email" id="email" class="form-control">
                                 </div>
-                                <div class="form-group">
-                                    <label for="senha">Senha</label>
-                                    <input type="password" placeholder="Senha" id="senha" class="form-control">
-                                </div>
-                                <div>
-                                    <button class="btn btn-lg btn-success" type="submit">
-                                        Entrar
-                                    </button>
+                                <div class="form-group col-8 offset-2">
+                                    <div>
+                                        <label for="senha">Senha</label>
+                                    </div>
+                                    <input type="password" id="senha" class="form-control">
                                 </div>
                             </div>
-                        </form>
+                            <div id="lembrar-de-mim" class="mr-auto ml-auto">
+                                <div class="row">
+                                    <div class="mr-auto">
+                                        <input type="checkbox"  id="lembrar">
+                                        <span>Lembrar de mim</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mr-auto ml-auto" id="div-botao">
+                                <button>
+                                    Entrar
+                                </button>
+                                <div>
+                                    <a id="esqueceu-senha">Esqueceu sua senha?</a>
+                                </div>
+                            </div>
+                            <span style="clear: both;"></span>
+                        </div>
+                        <span class="row" id="span-divisor">
+                            <div class="col-12 " >
+                                <div class="barra-divisor"><span class="d-none">barra de divisão</span></div>
+                            </div>
+                        </span>
+                        <div id="div-cadastro">
+                            <span id="span-cadastro">
+                                Não tem uma conta? <a id="link-cadastro">  Inscreva-se no Spotify</a>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
