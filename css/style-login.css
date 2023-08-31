@@ -1,7 +1,7 @@
 /* cor verder: #1ED760 */
 @font-face {
     font-family: "fonte spotify";
-    src: url("../fontes/Circular/CircularStd-Black.otf");
+    src: url("../fontes/Circular/CircularStd-Bold.otf");
 }
 body{
     background: linear-gradient(to bottom, #1A1A1A,#111111,#0A0A0A);
@@ -32,8 +32,8 @@ div.card{
 }
 div.card h1{
     letter-spacing: -0.05em;
-    font-size: 3em;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 700;
     margin-bottom: 35px;
     font-family: "fonte spotify";
 }
@@ -55,7 +55,7 @@ section#card div.card-texto div.card .btn{
     margin-bottom: 10px;
 }
 div.btn{
-    border-radius: 700px;
+    border-radius: 900px;
     border:0.5px solid #c1c1c179;
     font-weight: bold;
     width: 55%;
@@ -64,7 +64,7 @@ div.btn:hover{
     border:0.5px solid #fff;
 }
 div.btn-ultimo{
-    border-radius: 700px;
+    border-radius: 900px;
     border:0.5px solid #c1c1c179;
     font-weight: bold;
     width: 55%;
