@@ -7,12 +7,12 @@
     src: url("../fontes/Circular/CircularStd-Light.otf");
 }
 body{
-    background: linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000);
+    background: linear-gradient(to bottom, #262626,#111111,#050505,rgb(3, 3, 3));
     background-attachment: fixed;
     background:
-        -webkit-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000),
-        -o-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000),
-        -moz-linear-gradient(to bottom, #272727,#111111,#0A0A0A,#000);
+        -webkit-linear-gradient(to bottom, #191919,#111111,#050505,#000),
+        -o-linear-gradient(to bottom, #191919,#111111,#050505,#000),
+        -moz-linear-gradient(to bottom, #191919,#111111,#050505,#000);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
@@ -23,7 +23,7 @@ nav.navbar-custom{
 }
 /* card */
 section#card{
-    margin-top: 130px;
+    margin-top: 30px;
 }
 .card-texto{
     text-align: center;
@@ -113,7 +113,7 @@ div#div-formulario label{
     font-family: "fonte spotify";
 }
 input.form-control{
-    padding: 10px 0;
+    padding: 10px 8px;
     background-color: #121212;
     color:#fff;
 }
