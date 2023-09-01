@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "fonte spotify";
+    src: url("../fontes/Circular/CircularStd-Light.otf");
+}
+@font-face {
+    font-family: "fonte spotify bold";
+    src: url("../fontes/Circular/CircularStd-Bold.otf");
+}
+html, body, #capa{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(180deg, #196032,#0e341c, #121212 25%);
+    background:
+        -webkit-linear-gradient(180deg, #196032,#0e341c,#121212 25%),
+        -o-linear-gradient(180deg, #196032,#0e341c,#121212 25%),
+        -moz-linear-gradient(180deg, #196032,#0e341c,#121212 25%);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+/* navbar*/
+nav.navbar-custom{
+    background-color:rgba(0,0,0,0);
+    padding: 20px 10px;
+}
+nav.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+nav.navbar-custom .navbar-nav a#cor-diferente {
+    color: #D5D8DB;
+}
+nav.navbar-custom .navbar-nav .nav-link:hover {
+    color: #00ff55;
+}
+nav.navbar-custom .navbar-nav a#cor-diferente:hover {
+    color: #00ff55;
+}
+nav.navbar-custom .navbar-toggler {
+    color: #fff;
+    border-color: none;
+}
+nav.navbar-custom .navbar-toggler:focus {
+    outline: none;
+}
+nav.navbar-custom .navbar-toggler:hover{
+    color:#00ff55;
+}
+.divisor-navbar{
+    width: 1px;
+    background-color: #fff;
+    margin: 10px 15px;
+}
+/* capa */
+section#capa{
+    margin-top: 10px;
+}
+section#capa span#titulo h2{
+    color: #A0A5A0;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "fonte spotify";
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+section#capa span#titulo h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "fonte spotify bold";
+    letter-spacing: -0.05px;
+    margin-bottom: 60px;
+}
+section#capa h3#titulo2 a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "fonte spotify bold";
+    letter-spacing: -0.07px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+section#capa h3#titulo2 a:hover{
+    text-decoration-color: #00ff55;
+}
+section#capa h3#titulo2{
+    color: #A7A7A7;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "fonte spotify bold";
+    letter-spacing: -0.07px;
+}
+/* footer */
+footer{
+    background-color: #000;
+    position: relative;
+    padding: 40px 0 40px 0;
+}
+footer li{
+    color:#fff;
+    font-size: 0.9em;
+}
+footer ul{
+    list-style: none;
+}
+footer ul#redes-sociais{
+    float: right;
+}
+footer ul#redes-sociais li{
+    display: inline;
+    font-size: 2em;
+    padding-left: 5px;
+}
+ul#rodape-footer{
+    float: left;
+    font-size: 0.8em;
+    padding-top: 50px;
+}
+footer ul#rodape-footer li{
+    display: inline;
+    color:#919496;
+    padding-right: 6px;
+}
+ul#rodape-footer2{
+    float: right;
+    padding-top: 40px;
+}
+ul#rodape-footer2 li{
+    color:#919496;
+    padding-bottom: 6px;
+    font-size: 0.8em;
+}
+footer h4{
+    color:#919496;
+    font-size: 1em;
+}
+footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:hover, ul#rodape-footer2 li:hover{
+    color:#00ff55;
+    cursor: pointer;
+}
