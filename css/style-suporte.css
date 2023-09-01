@@ -91,6 +91,10 @@ section#capa h3#titulo2{
     font-family: "fonte spotify bold";
     letter-spacing: -0.07px;
 }
+section#capa input.form-control{
+    margin-top: 80px;
+    padding: 10px 30px;
+}
 /* footer */
 footer{
     background-color: #000;
