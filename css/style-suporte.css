@@ -92,8 +92,51 @@ section#capa h3#titulo2{
     letter-spacing: -0.07px;
 }
 section#capa input.form-control{
-    margin-top: 80px;
+    margin-top: 60px;
     padding: 10px 30px;
+    color: #000;
+    font-family: "fonte spotify bold";
+    font-weight: 700;
+}
+section#capa input.form-control:focus{
+    outline: none;
+    box-shadow:  none;
+    border:none;
+}
+section#capa div#cards{
+    margin-top: 20px;
+}
+section#capa div#cards .card{
+    margin-top:10px;
+    padding: 20px 8px;
+}
+section#capa div#cards{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "fonte spotify bold";
+    text-shadow: 1px 1px 2px #000;
+}
+section#capa div#cards .card1{
+    background: #AF2896 url("../imagens/icons8-mastercard-48.png") no-repeat right;
+}
+section#capa div#cards .card2{
+    background: #537AA1 url("../imagens/icons8-conta-60.png") no-repeat right;
+    padding-bottom: 45px;
+}
+section#capa div#cards .card3{
+    background: #8C1932 url("../imagens/icons8-lápis-64.png") no-repeat right;
+    padding-bottom: 45px;
+}
+section#capa div#cards .card4{
+    background: #B06239 url("../imagens/icons8-fone-de-ouvido-64.png") no-repeat right;
+    padding-bottom: 45px;
+}
+section#capa div#cards .card5{
+    background: #006450 url("../imagens/icons8-iphone-64.png") no-repeat right;
+}
+section#capa div#cards .card6{
+    background: #757575 url("../imagens/icons8-chave-48.png") no-repeat right;
 }
 /* footer */
 footer{
