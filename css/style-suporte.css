@@ -6,7 +6,7 @@
     font-family: "fonte spotify bold";
     src: url("../fontes/Circular/CircularStd-Bold.otf");
 }
-html, body, #capa{
+html, body{
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -55,6 +55,7 @@ nav.navbar-custom .navbar-toggler:hover{
 /* capa */
 section#capa{
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 section#capa span#titulo h2{
     color: #A0A5A0;
@@ -137,6 +138,14 @@ section#capa div#cards .card5{
 }
 section#capa div#cards .card6{
     background: #757575 url("../imagens/icons8-chave-48.png") no-repeat right;
+}
+/* ajuda rápida */
+section#ajuda{
+    background-color: #2A2A2A;
+}
+/* comunidade */
+section#comunidade{
+    background-color: #121212;
 }
 /* footer */
 footer{
