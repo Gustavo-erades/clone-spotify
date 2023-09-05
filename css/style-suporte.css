@@ -99,12 +99,14 @@ section#capa h3#titulo2{
 section#capa input.form-control{
     margin-top: 60px;
     padding: 10px 30px;
+    padding-left: 40px;
     color: #000;
     font-family: "fonte spotify bold";
     font-weight: 700;
     outline: none;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.728);
     border:none;
+    background: #fff url("../imagens/icons8-lupa-30.png") no-repeat left;
 }
 section#capa input.form-control:focus, section#capa input.form-control:hover{
     outline: none;
@@ -212,6 +214,7 @@ section#comunidade a.btn{
 section#comunidade a.btn:hover{
     font-weight: bold;
     font-size: 17px;
+    background-color: #15f563;
 }
 section#comunidade div#div-texto-comunidade{
     text-align: center;
