@@ -267,6 +267,32 @@ footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:ho
 /*Responsividade 
 ----------------------*/
 /* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width:574.98px){
+    .card{
+        font-size: 0.8em;
+    }
+    section#capa{
+        margin-bottom: 30px;
+    }
+    /* tamanho das fontes da comunidade*/
+    section#comunidade{
+        margin-top: 30px;
+        margin-bottom:30px
+    }
+    section#comunidade div#div-texto-comunidade h1{
+        font-size: 1em;
+    }
+    section#comunidade div#div-texto-comunidade p{
+        font-size: 0.8em;
+    }
+    section#comunidade div#div-texto-comunidade a.btn{
+        font-size: 0.8em;
+    }
+    /* tamanho da fonte dos links de ajuda rápida*/
+    section#ajuda ul li{
+        font-size: 0.8em;
+    }
+}
 @media (max-width: 575.98px) { 
     /* tamanho das fontes do titulo e margin do input*/
     section#capa span#titulo h1{
