@@ -6,9 +6,13 @@
     font-family: "fonte spotify bold";
     src: url("../fontes/Circular/CircularStd-Bold.otf");
 }
-html, body{
-    height: 100%;
+html,body{
+    
     scroll-behavior: smooth;
+}
+html{
+    height: 100%;
+    background-color: #000;
 }
 body{
     background:linear-gradient(180deg, #196032,#0e341c, #121212 25%);
@@ -48,9 +52,9 @@ nav.navbar-custom .navbar-toggler:hover{
     color:#00ff55;
 }
 .divisor-navbar{
-    width: 1px;
+    width: 2px;
     background-color: #fff;
-    margin: 10px 15px;
+    margin: 12px 15px;
 }
 /* capa */
 section#capa{
@@ -98,11 +102,14 @@ section#capa input.form-control{
     color: #000;
     font-family: "fonte spotify bold";
     font-weight: 700;
-}
-section#capa input.form-control:focus{
     outline: none;
-    box-shadow:  none;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.728);
     border:none;
+}
+section#capa input.form-control:focus, section#capa input.form-control:hover{
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
 section#capa div#cards{
     margin-top: 20px;
@@ -119,10 +126,10 @@ section#capa div#cards{
     text-shadow: 1px 1px 2px #000;
 }
 section#capa div#cards .card1{
-    background: #AF2896 url("../imagens/icons8-mastercard-48.png") no-repeat right;
+    background: #AF2896 url("../imagens/icons8-mastercard-64.png") no-repeat right;
 }
 section#capa div#cards .card2{
-    background: #537AA1 url("../imagens/icons8-conta-60.png") no-repeat right;
+    background: #537AA1 url("../imagens/icons8-debt-64.png") no-repeat right;
     padding-bottom: 45px;
 }
 section#capa div#cards .card3{
@@ -130,14 +137,17 @@ section#capa div#cards .card3{
     padding-bottom: 45px;
 }
 section#capa div#cards .card4{
-    background: #B06239 url("../imagens/icons8-fone-de-ouvido-64.png") no-repeat right;
+    background: #B06239 url("../imagens/icons8-headphone-64.png") no-repeat right;
     padding-bottom: 45px;
 }
 section#capa div#cards .card5{
     background: #006450 url("../imagens/icons8-iphone-64.png") no-repeat right;
 }
 section#capa div#cards .card6{
-    background: #757575 url("../imagens/icons8-chave-48.png") no-repeat right;
+    background: #757575 url("../imagens/icons8-chave-64.png") no-repeat right;
+}
+section#capa div.card{
+    cursor:pointer;
 }
 /* ajuda rápida */
 section#ajuda{
@@ -160,11 +170,52 @@ section#ajuda ul{
     padding: 0;
 }
 section#ajuda ul li{
-    margin: 30px 0;
+    margin: 35px 0;
+    font-weight: 600;
+    letter-spacing: -0.05;
+}
+section#ajuda ul li i{
+    float: right;
+    color: #9D9D9D;
+}
+section#ajuda ul li:hover{
+    text-decoration: underline;
+    text-decoration-color:#fff;
+    cursor:pointer;
 }
 /* comunidade */
 section#comunidade{
     background-color: #121212;
+    color:#fff;
+    margin:100px 0;
+}
+section#comunidade h1{
+    font-family: "fonte spotify bold";
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+}
+section#comunidade p{
+    font-family: "fonte spotify";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+section#comunidade a.btn{
+    font-family: "fonte spotify bold";
+    font-size: 16px;
+    color: #000;
+    background-color: #1ED760;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+section#comunidade a.btn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+section#comunidade div#div-texto-comunidade{
+    text-align: center;
 }
 /* footer */
 footer{

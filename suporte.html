@@ -33,7 +33,7 @@
                             <a href="" class="nav-link">Suporte</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Baixar</a>
+                            <a href="index.html" class="nav-link">Baixar</a>
                         </li>
                         <li class="nav-item divisor-navbar d-none d-md-block"></li>
                         <li class="nav-item" >
@@ -63,17 +63,17 @@
                         <input type="text" class="form-control" placeholder="Buscar">
                         
                         <div class="row" id="cards">
-                            <div class="col-4">
+                            <div class="col-6 col-md-4">
                                 <div class="card card1">
                                     Ajuda com pagamentos
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-6 col-md-4">
                                 <div class="card card2">
                                     Ajuda com a conta
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="d-none d-md-block col-md-4">
                                 <div class="card card3">
                                     Ajuda com o plano
                                 </div>
@@ -81,22 +81,37 @@
                         </div>
                         
                         <div class="row" id="cards">
-                            <div class="col-4">
+                            <div class="col-6 col-md-4">
                                 <div class="card card4">
                                     Ajuda com o app
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-6 col-md-4">
                                 <div class="card card5">
                                     Ajuda com dispositivos
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="d-none d-md-block col-md-4">
                                 <div class="card card6">
                                     Privacidade e segurança
                                 </div>
                             </div>
                         </div>
+
+                        <!-- só aparece em telas menores-->
+                        <div class="row d-md-none" id="cards">
+                            <div class="col-6">
+                                <div class="card card3">
+                                    Ajuda com o plano
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card6">
+                                    Privacidade e segurança
+                                </div>
+                            </div>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
@@ -105,24 +120,29 @@
     <section id="ajuda">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-6 offset-3 ml-auto mr-auto">
+                <div class="col-12 col-md-6 offset-md-3 ml-auto mr-auto">
                     <div class="mr-auto ml-auto">
                         <h1>Ajuda rápida</h1>
                         <ul>
                             <li>
                                 <a>Não consigo redefinir a senha</a>
+                                <i class="fa-solid fa-chevron-right"></i>
                             </li>
                             <li>
                                 <a>Não lembro minhas informações de login</a>
+                                <i class="fa-solid fa-chevron-right"></i>
                             </li>
                             <li>
                                 <a>Ajuda para entrar com o Facebook</a>
+                                <i class="fa-solid fa-chevron-right"></i>
                             </li>
                             <li>
                                 <a>Formas de pagamento</a>
+                                <i class="fa-solid fa-chevron-right"></i>
                             </li>
                             <li>
                                 <a>Atualizações de preço</a>
+                                <i class="fa-solid fa-chevron-right"></i>
                             </li>
                         </ul>
                     </div>
@@ -133,8 +153,14 @@
     <section id="comunidade">
         <div class="container">
             <div class="row d-flex">
-                <div class="mr-auto ml-auto">
-                    <h1 class="text-light">Visite nossa comunidade</h1>
+                <div class="mr-auto ml-auto" id="div-texto-comunidade">
+                    <h1>Visite nossa Comunidade</h1>
+                    <p>
+                        Tem uma pergunta? Encontre respostas na nossa Comunidade de fãs especialistas do mundo todo!
+                    </p>
+                    <a class="btn">
+                        Acesse a Comunidade do Spotify
+                    </a>
                 </div>
             </div>
         </div>
