@@ -283,6 +283,52 @@ footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:ho
     }
 }
 /* Small devices (landscape phones, less than 768px) */
+@media (max-width:500.98px){
+    /* tamanho dos botões da capa */
+    .capa-texto a.btn{
+        font-size:1em;
+    }
+    /* textos do conteudo 1 */
+    section#conteudo1 div#conteudo1-texto h2{
+        font-size: 1.9em;
+    }
+    section#conteudo1 div#conteudo1-texto h3{
+        font-size: 1.5em;
+    }
+    /* textos do conteudo 2*/
+    section#conteudo2 div#conteudo2-texto h2{
+        font-size: 2em;
+    }
+    section#conteudo2 div#conteudo2-texto h3{
+        font-size: 1.8em;
+    }
+    /* titulo conteudo 3*/
+    section#conteudo3 div#conteudo3-titulo h1{
+        font-size: 1.7em;
+    }
+    /* é grátis... */
+    section#conteudo4 h2{
+        font-size: 2.5em;
+    }
+    /* escute milhões... */
+    section#conteudo5 h3#conteudo5-texto{
+        font-size: 3em;
+    }
+    section#conteudo5 span#conteudo5-span{
+        font-size: 1.5em;
+    }
+    /* gostou? Então... */
+    section#conteudo6 h1{
+        font-size:2.5em;
+    }
+    /* footer */
+    footer div{
+        margin-bottom: 20px;
+    }
+    footer ul#redes-sociais li{
+        font-size: 1.8em;
+    }
+}
 @media (min-width:500.98px) { 
     .capa-texto h1{
         font-size:3em;
