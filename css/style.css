@@ -279,7 +279,7 @@ footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:ho
 /* responsividade */
 @media (min-width:200px) { 
     .capa-texto h1{
-        font-size:2em;
+        font-size:1.8em;
     }
 }
 /* Small devices (landscape phones, less than 768px) */
