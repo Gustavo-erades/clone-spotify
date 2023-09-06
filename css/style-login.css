@@ -6,6 +6,9 @@
     font-family: "fonte spotify fino";
     src: url("../fontes/Circular/CircularStd-Light.otf");
 }
+html,body,section#card{
+    height: 100%;
+}
 body{
     background: linear-gradient(to bottom, #262626,#111111,#050505,rgb(3, 3, 3));
     background-attachment: fixed;
@@ -174,3 +177,56 @@ span#span-cadastro a#link-cadastro{
 span#span-cadastro a#link-cadastro:hover{
     color: #30db6c;
 }
+/*Responsividade
+-----------------*/
+@media (max-width:395.98px){
+    section#card h1{
+        font-size: 1.6em;
+        color: #0059ff;
+    }
+    section#card span.texto{
+        font-size: 0.6em;
+    }
+    section#card div.btn-ultimo{
+        font-size: 0.6em;
+    }
+}
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (min-width:396px) and (max-width: 575.98px) { 
+    section#card h1{
+        font-size: 1.9em;
+    }
+    section#card span.texto{
+        font-size: 0.8em;
+    }
+    section#card div.btn-ultimo{
+        font-size: 0.7em;
+        width: 100%;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+   
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    div.btn{
+        width: 100%;
+    }
+    section#card div.btn-ultimo{
+        width: 100%;
+    }
+ }
+
+/* X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+/* XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width*/
