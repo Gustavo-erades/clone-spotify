@@ -179,10 +179,56 @@ span#span-cadastro a#link-cadastro:hover{
 }
 /*Responsividade
 -----------------*/
+@media (max-width:299.98px){
+    section#card .card h1{
+        font-size: 1.3em;
+    }
+    section#card .card .btn a i{
+        font-size: 1em;
+    }
+    section#card div.card-texto div.card .btn{
+        display: none;
+    }
+    section#card div.card-texto div.card .btn-especial{
+        display: block;
+        margin-bottom: 20px;
+    }
+    section#card div.card-texto div.card .btn-especial i{
+        padding-left: 5px;
+    }
+    section#card div.card-texto div.card .btn-ultimo{
+        font-size: 0.5em;
+        border: none;
+    }
+}
+@media (min-width:300px){
+    section#card div.card-texto div.card .btn{
+        display: block;
+    }
+    section#card div.card-texto div.card .btn-especial{
+        display: none;
+    }
+}
+@media (min-width:300px) and (max-width:394px){
+    section#card .card h1{
+        font-size: 1.4em;
+    }
+    section#card .card span.texto{
+        font-size: 0.6em;
+    }
+    section#card .card .btn a i{
+        font-size: 1em;
+    }
+    section#card div.card-texto div.card .btn{
+        padding: 5px 0;
+    }
+    section#card div.card-texto div.card .btn-ultimo{
+        padding: 10px 0;
+    }
+}
 @media (max-width:395.98px){
     section#card h1{
         font-size: 1.6em;
-        color: #0059ff;
     }
     section#card span.texto{
         font-size: 0.6em;
@@ -211,8 +257,10 @@ span#span-cadastro a#link-cadastro:hover{
 }
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-   
+@media (min-width: 760.98px) and (max-width: 991.98px) {
+    section#card .card-texto .card h1{
+        font-size: 2.3em;
+    }
  }
 
 /* Large devices (desktops, less than 1200px)*/
