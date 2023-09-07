@@ -179,7 +179,7 @@ span#span-cadastro a#link-cadastro:hover{
 }
 /*Responsividade
 -----------------*/
-@media (max-width:299.98px){
+@media (max-width:357.98px){
     section#card .card h1{
         font-size: 1.3em;
     }
@@ -201,15 +201,12 @@ span#span-cadastro a#link-cadastro:hover{
         border: none;
     }
 }
-@media (min-width:300px){
-    section#card div.card-texto div.card .btn{
-        display: block;
-    }
+@media(min-width:358px){
     section#card div.card-texto div.card .btn-especial{
         display: none;
     }
 }
-@media (min-width:300px) and (max-width:394px){
+@media (min-width:358px) and (max-width:380.98px){
     section#card .card h1{
         font-size: 1.4em;
     }
@@ -226,6 +223,12 @@ span#span-cadastro a#link-cadastro:hover{
         padding: 10px 0;
     }
 }
+@media (min-width:381px) and (max-width:394.98){
+    #resp-span{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 @media (max-width:395.98px){
     section#card h1{
         font-size: 1.6em;
@@ -235,6 +238,14 @@ span#span-cadastro a#link-cadastro:hover{
     }
     section#card div.btn-ultimo{
         font-size: 0.6em;
+    }
+}
+@media (min-width:500px) and (max-width:550.98px){
+    section#card span.texto{
+      margin-right: auto;
+    }
+    section#card span.icone{
+        margin-left: auto;
     }
 }
 /* X-Small devices (portrait phones, less than 576px)*/
