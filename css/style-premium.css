@@ -7,10 +7,6 @@
     src: url(../fontes/Circular/CircularStd-Black.otf);
 }
 @font-face {
-    font-family: "textos padrao";
-    src: url(../fontes/Circular/CircularStd-Black.otf);
-}
-@font-face {
     font-family: "textos bold";
     src: url(../fontes/Circular/CircularStd-Bold.otf);
 }
@@ -119,6 +115,74 @@ section#conteudo1 h1{
     font-size: 40px;
     font-weight: 900;
     color: #000;
+}
+section#conteudo1 div#conteudo1-dentro{
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+section#conteudo1 div#conteudo1-dentro div.card-icone h5{
+    color: #000;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: "textos bold";
+    font-weight: 900;
+    margin-top: 30px;
+}
+section#conteudo1 div#conteudo1-dentro div.card-icone p{
+    color: #000;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: "textos";
+}
+section#conteudo1 i{
+    font-size: 4.5em;
+    color: #000;
+}
+/* conteudo 2*/
+section#conteudo2{
+    background-color: #EFEFEF;
+}
+section#conteudo2 .container{
+    text-align: center;
+}
+section#conteudo2 h1{
+    font-family: "textos bold";
+    line-height: 40px;
+    font-size: 36.5px;
+    font-weight: 900;
+    color: #000;
+}
+section#conteudo2 div#conteudo2-titulos p{
+    font-family: "textos";
+    color: #000;
+    font-weight: 600;
+}
+section#conteudo2 div#conteudo2-titulos{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+section#conteudo2 div#conteudo2-titulos i{
+    font-size: 1.3em;
+    display: inline;
+}
+section#conteudo2 div#conteudo2-titulos a#link-cartoes{
+    text-decoration: underline;
+    text-decoration-color: #000;
+    color: #000;
+    font-family: "textos";
+    font-weight: 600;
+    cursor: pointer;
+}
+section#conteudo2 div#conteudo2-titulos .card-cartoes{
+    background-color: #fff;
+    display: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 100px;
+    box-shadow: 1px 1px 8px #00000067;
 }
 /* footer
 footer{

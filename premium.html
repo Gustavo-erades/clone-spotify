@@ -78,30 +78,78 @@
     <section id="conteudo1">
         <div class="container">
             <h1>Por que ser Premium?</h1>
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row" id="conteudo1-dentro">
+                <div class="col-md-3 card-icone">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
                     <h5>Modo offline.</h5>
                     <p>
                         Ouça música onde estiver.
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 card-icone">
+                    <i class="fa-solid fa-circle-exclamation"></i>
                     <h5>Ouça músicas sem anúncios.</h5>
                     <p>
                         Curta música sem anúncios.
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 card-icone">
+                    <i class="fa-sharp fa-solid fa-music"></i>
                     <h5>Ouça na ordem que quiser.</h5>
                     <p>
                         Qualquer música em qualquer ordem.
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 card-icone">
+                    <i class="fa-solid fa-headphones"></i>
                     <h5>Qualidade de som superior</h5>
                     <p>
                         Sinta o som.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="conteudo2">
+        <div class="container">
+            <div id="conteudo2-titulos">
+                <h1>Escolha seu plano Premium</h1>
+                <p>
+                    Ouça sem limites no seu celular, alto-falante e em outros dispositivos.
+                </p>
+                <div>
+                    <i class="fa-brands fa-cc-mastercard" style="color: #fda102;"></i>
+                    <i class="fa-brands fa-cc-visa" style="color: #005af5;"></i>
+                    <i class="fa-brands fa-cc-stripe" style="color: #6ccd84;"></i>
+                    <i class="fa-brands fa-cc-amazon-pay" style="color: #b202fd;"></i>
+                    <i class="fa-brands fa-cc-paypal" style="color: #f2254b;"></i>
+                    <a id="link-cartoes" onmouseover="mostrarcard()">+ outros 6</a>
+                </div>
+                <span class="row card-cartoes" id="card-cartoes">
+                    <div class="col-12">
+                        <i class="fa-brands fa-cc-jcb" style="color: #000000;"></i>
+                        <i class="fa-brands fa-cc-discover" style="color: #8f5e22;"></i>
+                        <i class="fa-brands fa-cc-apple-pay" style="color: #18bef6;"></i>
+                    </div>
+                    <div class="col-12">
+                        <i class="fa-brands fa-cc-amex" style="color: #377641;"></i>
+                        <i class="fa-brands fa-cc-diners-club" style="color: #f639da;"></i>
+                        <i class="fa-solid fa-credit-card" style="color: #e6f330;"></i>
+                    </div>
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-md-3 card">
+                    sda
+                </div>
+                <div class="col-md-3 card">
+                    sdasd
+                </div>
+                <div class="col-md-3 card">
+                    dasdas
+                </div>
+                <div class="col-md-3 card">
+                    sdasd
                 </div>
             </div>
         </div>
@@ -204,6 +252,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        function mostrarcard(){
+            document.getElementById('card-cartoes').style.display = 'inline-block'; 
+        }
+    </script>
 
 </body>
 </html>
