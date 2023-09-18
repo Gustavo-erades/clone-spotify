@@ -123,7 +123,7 @@
                     <i class="fa-brands fa-cc-stripe" style="color: #6ccd84;"></i>
                     <i class="fa-brands fa-cc-amazon-pay" style="color: #b202fd;"></i>
                     <i class="fa-brands fa-cc-paypal" style="color: #f2254b;"></i>
-                    <a id="link-cartoes" onmouseover="mostrarcard()">+ outros 6</a>
+                    <a id="link-cartoes" onmouseover="mostrarcard()" onmouseleave="nMostrarcard()">+ outros 6</a>
                 </div>
                 <span class="row card-cartoes" id="card-cartoes">
                     <div class="col-12">
@@ -255,6 +255,9 @@
     <script>
         function mostrarcard(){
             document.getElementById('card-cartoes').style.display = 'inline-block'; 
+        }
+        function nMostrarcard(){
+            document.getElementById('card-cartoes').style.display = 'none'; 
         }
     </script>
 
