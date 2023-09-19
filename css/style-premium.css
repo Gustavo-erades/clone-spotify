@@ -318,4 +318,7 @@ footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:ho
     section#comeco #restante #botao-esquerda{
         margin: 10px auto 20px auto;
     }
+    .especial{
+        margin-top: 100px;
+    }
 }
