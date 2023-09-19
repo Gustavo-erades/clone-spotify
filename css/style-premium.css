@@ -143,6 +143,7 @@ section#conteudo1 i{
 /* conteudo 2*/
 section#conteudo2{
     background-color: #EFEFEF;
+    padding-bottom: 100px;
 }
 section#conteudo2 .container{
     text-align: center;
@@ -184,7 +185,74 @@ section#conteudo2 div#conteudo2-titulos .card-cartoes{
     margin-left: 100px;
     box-shadow: 1px 1px 8px #00000067;
 }
-/* footer
+section#conteudo2 .card{
+    box-shadow: 4px 4px 15px #0000002a;
+    padding: 5px 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+section#conteudo2 .texto-cima{
+    text-align: justify;
+    border-bottom: 2px solid #939393;
+}
+section#conteudo2 .texto-cima .conta{
+    margin-bottom: 15px;
+}
+section#conteudo2 .texto-cima h4{
+    font-family: "textos padrao";
+    margin-top: 10px;
+}
+section#conteudo2 .texto-cima p{
+    font-family: "textos";
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+section#conteudo2 div.lista{
+   text-align: justify;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+section#conteudo2 div.lista span{
+    display: inline-block;
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.05px;
+    font-weight: 600;
+    font-family: "textos";
+}
+section#conteudo2 div.lista span i{
+    font-size: 1.4em;
+    color: #000;
+}
+section#conteudo2 .card .botoes{
+    text-align: justify;
+}
+section#conteudo2 .card .botoes button{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "textos bold";
+}
+section#conteudo2 .ultimo-botao button{
+    border-radius: 30px;
+    background-color: #1e1b1b;
+    color: #FFF9E8;
+    border: none;
+    padding: 10px 50px;
+    font-family: "textos bold";
+    cursor: pointer;
+}
+section#conteudo2 .ultimo-botao button:hover{
+    background-color: #000;
+}
+section#conteudo2 .ultimo-botao p{
+    line-height: 16px;
+    font-size: 12px;
+    color: #6E668A;
+    margin-top: 10px;
+}
+/* footer */
 footer{
     background-color: #000;
     position: relative;
@@ -231,4 +299,4 @@ footer h4{
 footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:hover, ul#rodape-footer2 li:hover{
     color:#00ff55;
     cursor: pointer;
-}*/
+}
