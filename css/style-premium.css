@@ -64,6 +64,7 @@ section#comeco button#botao-direita{
 }
 section#comeco button#botao-direita:hover{
     background-color: #000;
+    font-weight: 800;
 }
 section#comeco button#botao-esquerda{
     margin-right: 10px;
@@ -73,6 +74,7 @@ section#comeco button#botao-esquerda{
 }
 section#comeco button#botao-esquerda:hover{
     background-color: #125bb5;
+    font-weight: 800;
 }
 section#comeco p{
     margin-left: 0;
@@ -299,4 +301,21 @@ footer h4{
 footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:hover, ul#rodape-footer2 li:hover{
     color:#00ff55;
     cursor: pointer;
+}
+/* responsividade 
+--------------------------*/
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    section#comeco{
+        text-align: center;
+    }
+    section#comeco #titulos p#p-titulo{
+        font-size: 20px;
+    }
+    section#comeco #restante #botao-direita{
+        margin: 0 auto;
+    }
+    section#comeco #restante #botao-esquerda{
+        margin: 10px auto 20px auto;
+    }
 }
