@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "fonte spotify";
+    src: url("../fontes/Circular/CircularStd-Bold.otf");
+}
+@font-face {
+    font-family: "fonte spotify fino";
+    src: url("../fontes/Circular/CircularStd-Light.otf");
+}
+@font-face {
+    font-family: "fonte spotify book";
+    src: url("../fontes/Circular/CircularStd-Book.otf");
+}
+html, body, section{
+    height: 100%;
+}
+html,header,section,body{
+    background-color: #121212;
+}
+section{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: "fonte spotify fino";
+}
+section h1{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    font-family: "fonte spotify book";
+    color: #fff;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom:  30px;
+    text-align: left;
+}
+section label{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "fonte spotify";
+    float: left;
+}
+section input.form-control{
+    background-color: #121212;
+    color: #fff;
+    font-size: 15px;
+    font-family: "fonte spotify fino";
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 12px 8px;
+}
+section input.form-control:hover, section input.form-control:active, section input.form-control:focus{
+    background-color: #121212;
+    outline: 2px solid #1FDF64;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+section a#telefone{
+    color: #1FDF64;
+    float: left;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+section button.btn{
+    clear: both;
+    display: block;
+    color: #000;
+    background-color: #1FDF64;
+    font-family: "fonte spotify";
+    width: 100%;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+section button.btn:hover, section button.btn:focus, section button.btn:active{
+    box-shadow: none;
+}
+section button.btn:active, section button.btn:hover{
+    background-color: #1fdf659d;
+}
+/* divisor
+-----------------*/
+#divisor{
+    width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#divisor::before{
+    content: " ";
+    height: 1px;
+    background-color: var(--essential-subdued,#878787);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+}
+#ou{
+    padding: 0px 12px;
+    position: relative;
+    display: inline-block;
+    background: var(--background-base,#121212 );
+    color: #ffffff;
+}
+#botoes-redes{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #252525;
+    margin-bottom: 20px;
+}
+#botoes-redes button.btn{
+    outline: 1px solid #454545;
+    background-color: #121212;
+    font-weight: bolder;
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+#botoes-redes button.btn:hover, #botoes-redes button.btn:active{
+    outline-color: #fff;
+}
+i#google{
+    /* define o degradê */
+    background-image: linear-gradient(to bottom, #ff0000,#fbff00,#00ff08,#0059ff);
+    background-image: -webkit-linear-gradient(to bottom,#ff0000,#fbff00,#00ff08,#0059ff),
+                      -o-linear-gradient(to bottom, #ff0000,#fbff00,#00ff08,#0059ff),
+                      -moz-linear-gradient(to bottom, #ff0000,#fbff00,#00ff08,#0059ff);
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -moz-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color:#ff4000;
+}
+i#facebook{
+    color: #3f85fd;
+}
+i{
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 0;
+}
+p{
+    font-weight: bolder;
+    color: #A6A4A1;
+}
+p a#link{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+p a#link:hover, p a#link:active{
+    text-decoration-color: #1FDF64;
+}
+p#termos{
+    font-weight: normal;
+    font-size: 11px
+}
