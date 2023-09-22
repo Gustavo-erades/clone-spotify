@@ -62,6 +62,10 @@ section a#telefone{
     font-weight: bolder;
     margin-bottom: 20px;
 }
+section a#telefone:hover, section a#telefone:active{
+    color: #fff;
+    text-decoration-color:#1FDF64 ;
+}
 section button.btn{
     clear: both;
     display: block;
@@ -163,4 +167,81 @@ p a#link:hover, p a#link:active{
 p#termos{
     font-weight: normal;
     font-size: 11px
+}
+#botoes-redes-especial{
+    display: none;
+}
+/* responsividade
+-------------------------*/
+@media (max-width:280.98px){
+    section h1{
+        font-size: 23.5px;
+    }
+    section #telefone{
+        font-size: 0.8em;
+    }
+    #botoes-redes button.btn{
+        display: none;
+    }
+    #botoes-redes-especial{
+        display: block;
+        font-size: 1em;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #botoes-redes-especial div{
+        margin-bottom: 5px;
+    }
+    p#termos{
+        font-size: 0.5em;
+    }
+}
+@media (min-width:281px) and (max-width: 458.98px) { 
+    section h1{
+        font-size: 30px;
+    }
+    #avancar{
+        font-size: 0.9em;
+    }
+    #botoes-redes button.btn{
+        font-size: 0.7em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    p#termos{
+        font-size: 0.6em;
+    }
+ }
+ @media (min-width:460px) and (max-width: 574px) { 
+    section h1{
+        font-size: 40px;
+    }
+ }
+@media (max-width: 575.98px) { 
+    #avancar{
+        font-size: 0.9em;
+    }
+ }
+@media (min-width:576px) and (max-width: 991.98px) { 
+    section h1{
+        font-size: 30px;
+    }
+    #botoes-redes button.btn{
+        font-size: 0.7em;
+    }
+    section a#telefone{
+        font-size: 0.8em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    p#termos{
+        font-size: 0.6em;
+    }
+ }
+@media (min-width:992px) and (max-width: 1199.98px) { 
+    section h1{
+        font-size: 40px;
+    }
 }
