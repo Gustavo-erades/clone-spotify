@@ -213,6 +213,7 @@ details p #saibaMais:hover{
     font-size: 0.8em;
     letter-spacing: 0.03em;
     color: #00ff55;
+    float: right;
 }
 #saibaMais-especial:hover{
     cursor: pointer;
