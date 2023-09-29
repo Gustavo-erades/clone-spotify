@@ -14,11 +14,11 @@ html{
     background-color: #000;
 }
 body{
-    background:linear-gradient(180deg, #196032,#0e341c, #121212 25%);
+    background:linear-gradient(180deg, #196032,#0e341c, #121212 10%);
     background:
-        -webkit-linear-gradient(180deg, #196032,#0e341c,#121212 25%),
-        -o-linear-gradient(180deg, #196032,#0e341c,#121212 25%),
-        -moz-linear-gradient(180deg, #196032,#0e341c,#121212 25%);
+        -webkit-linear-gradient(180deg, #196032,#0e341c,#121212 10%),
+        -o-linear-gradient(180deg, #196032,#0e341c,#121212 10%),
+        -moz-linear-gradient(180deg, #196032,#0e341c,#121212 10%);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
 }
@@ -175,10 +175,50 @@ section#ajuda ul li i{
     float: right;
     color: #9D9D9D;
 }
-section#ajuda ul li:hover{
+section#ajuda ul li summary:hover{
     text-decoration: underline;
     text-decoration-color:#fff;
     cursor:pointer;
+}
+summary{
+    all:unset;
+}
+details p{
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+}
+details ul#lista-detalhes{
+    list-style-type: disc;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    margin-bottom: 5px;
+}
+details ul#lista-detalhes li{
+    margin: 0 0 0 50px;
+}
+details p #saibaMais{
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    color: #00ff55;
+}
+details p #saibaMais:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #00ff55;
+    color: #fff;
+}
+#saibaMais-especial{
+    font-size: 0.8em;
+    letter-spacing: 0.03em;
+    color: #00ff55;
+}
+#saibaMais-especial:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #00ff55;
+    color: #fff;
 }
 /* comunidade */
 section#comunidade{
@@ -312,6 +352,12 @@ footer ul.navbar-nav li:hover, ul#redes-sociais li:hover, ul#rodape-footer li:ho
         font-size: 1.8em;
     }
     section#comunidade div#div-texto-comunidade p{
+        font-size: 0.9em;
+    }
+    details ul#lista-detalhes{
+        font-size: 1.1em;
+    }
+    #saibaMais-especial{
         font-size: 0.9em;
     }
  }
